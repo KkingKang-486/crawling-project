@@ -5,21 +5,6 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 
 category = ['음식', '음악', '이세계', '일상', '추리', '치유', '판타지']
-
-url = 'https://laftel.net/finder'       # 반응형 웹사이트
-
-options = webdriver.ChromeOptions()
-options.add_argument('lang=kr_KR')
-driver = webdriver.Chrome('./chromedriver', options=options)
-df_title = pd.DataFrame()
-url = 'https://laftel.net/finder'
-import re
-import pandas as pd
-import time
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
-
-category = ['음식', '음악', '이세계', '일상', '추리', '치유', '판타지']
 pages = [50, 124, 138, 417, 101, 130, 1072]
 
 url = 'https://laftel.net/finder'       # 반응형 웹사이트
