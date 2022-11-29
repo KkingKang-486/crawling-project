@@ -2,7 +2,7 @@ import re
 import pandas as pd
 import time
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
+
 
 category = ['음식', '음악', '이세계', '일상', '추리', '치유', '판타지']
 pages = [50, 124, 138, 417, 101, 130, 1072]
