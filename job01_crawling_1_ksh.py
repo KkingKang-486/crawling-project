@@ -4,13 +4,13 @@ import time
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 
-category = ['sf', '개그']   # 제외장르 제외하고     # category[i-n]     # n은 페이지 번호 # 주석
+#category = ['sf', '개그']   # 제외장르 제외하고     # category[i-n]     # n은 페이지 번호 # 주석
 #category = ['드라마', '로맨스', '모험']   # 제외장르 제외하고
-#category = ['미스터리', '범죄']   # 제외장르 제외하고
+category = ['미스터리', '범죄']   # 제외장르 제외하고
 
-pages = [271, 687]     # sf, 개그         # 실제 보이는 +1씩해야 마지막 페이지까지됨            # pages[i-n]        # n은 페이지 번호
+#pages = [271, 687]     # sf, 개그         # 실제 보이는 +1씩해야 마지막 페이지까지됨            # pages[i-n]        # n은 페이지 번호
 #pages = [124, 310, 561] # 드라마, 로맨스, 모험
-#pages = [132, 98]      # 미스터리, 범죄
+pages = [132, 98]      # 미스터리, 범죄
 
 
 options = webdriver.ChromeOptions()
@@ -20,7 +20,7 @@ df_title = pd.DataFrame()
 url = 'https://laftel.net/finder'   # 반응형 웹사이트
 
 
-for i in range(3, 5):   # SF(세번째),개그(네번째) # 6, 7 , 8     # 10, 11
+for i in range(10, 12):   # SF(세번째),개그(네번째) # 6, 7 , 8     # 10, 11
     titles = []
     driver.get(url)
     driver.maximize_window()        # 윈도우창 최대화
@@ -49,7 +49,7 @@ for i in range(3, 5):   # SF(세번째),개그(네번째) # 6, 7 , 8     # 10, 1
             break
         else:
             prev_height = driver.execute_script("return document.body.scrollHeight")
-    for j in range(1, pages[i-3]):
+    for j in range(1, pages[i-12]):
         category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
 
         title = driver.find_element('xpath', category_xpath4).text
@@ -58,7 +58,7 @@ for i in range(3, 5):   # SF(세번째),개그(네번째) # 6, 7 , 8     # 10, 1
 
         if j % 10 == 0:
             df_section_title = pd.DataFrame(titles, columns=['titles'])
-            df_section_title['category'] = category[i-3]
+            df_section_title['category'] = category[i-12]
             df_title = pd.concat([df_title, df_section_title], ignore_index=True)
-            df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[i-3], j), index=False)      # crawling_data 폴더(디렉토리) 만들어야함
+            df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[i-12], j), index=False)      # crawling_data 폴더(디렉토리) 만들어야함
             titles = []
