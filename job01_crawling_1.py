@@ -58,19 +58,19 @@ for k in range(0, 7):
                 break
             else:
                 prev_height = driver.execute_script("return document.body.scrollHeight")
-            for j in range(1, pages[k]):
-                category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
+        for j in range(1, pages[k]):
+            category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
 
-                time.sleep(2)
-                title = driver.find_element('xpath', category_xpath4).text
-                title = re.compile('[^가-힣 ]').sub(' ', title)
-                titles.append(title)
-                if j % 10 == 0:
-                    df_section_title = pd.DataFrame(titles, columns=['titles'])
-                    df_section_title['category'] = category[k]
-                    df_title = pd.concat([df_title, df_section_title], ignore_index=True)
-                    df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
-                    titles = []
+            time.sleep(2)
+            title = driver.find_element('xpath', category_xpath4).text
+            title = re.compile('[^가-힣 ]').sub(' ', title)
+            titles.append(title)
+            if j % 10 == 0:
+                df_section_title = pd.DataFrame(titles, columns=['titles'])
+                df_section_title['category'] = category[k]
+                df_title = pd.concat([df_title, df_section_title], ignore_index=True)
+                df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
+                titles = []
 
     for i in range(24, 26): #추리/치유
         titles = []
@@ -98,19 +98,20 @@ for k in range(0, 7):
             break
         else:
             prev_height = driver.execute_script("return document.body.scrollHeight")
-            for j in range(1, pages[k]):
-                category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
+        for j in range(1, pages[k]):
+            category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
 
-                time.sleep(2)
-                title = driver.find_element('xpath', category_xpath4).text
-                title = re.compile('[^가-힣 ]').sub(' ', title)
-                titles.append(title)
-                if j % 10 == 0:
-                    df_section_title = pd.DataFrame(titles, columns=['titles'])
-                    df_section_title['category'] = category[k]
-                    df_title = pd.concat([df_title, df_section_title], ignore_index=True)
-                    df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
-                    titles = []
+            time.sleep(2)
+            title = driver.find_element('xpath', category_xpath4).text
+            title = re.compile('[^가-힣 ]').sub(' ', title)
+            titles.append(title)
+
+            if j % 10 == 0: # 10개마다 저장
+                df_section_title = pd.DataFrame(titles, columns=['titles'])
+                df_section_title['category'] = category[k]
+                df_title = pd.concat([df_title, df_section_title], ignore_index=True)
+                df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
+                titles = []
 
     for i in range(27, 28): # 판타지
         titles = []
@@ -138,16 +139,17 @@ for k in range(0, 7):
             break
         else:
             prev_height = driver.execute_script("return document.body.scrollHeight")
-            for j in range(1, pages[k]):
-                category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
+        for j in range(1, pages[k]):
+            category_xpath4 = '//*[@id="root"]/div/div[2]/div[2]/div[2]/div[3]/div[{}]/a'.format(j)     # 제목
 
-                time.sleep(2)
-                title = driver.find_element('xpath', category_xpath4).text
-                title = re.compile('[^가-힣 ]').sub(' ', title)
-                titles.append(title)
-                if j % 100 == 0:
-                    df_section_title = pd.DataFrame(titles, columns=['titles'])
-                    df_section_title['category'] = category[k]
-                    df_title = pd.concat([df_title, df_section_title], ignore_index=True)
-                    df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
-                    titles = []
+            time.sleep(2)
+            title = driver.find_element('xpath', category_xpath4).text
+            title = re.compile('[^가-힣 ]').sub(' ', title)
+            titles.append(title)
+
+            if j % 100 == 0: # 100개마다 저장 -> 판타지는 개수가 1000개 이상이여서 100개로 설정
+                df_section_title = pd.DataFrame(titles, columns=['titles'])
+                df_section_title['category'] = category[k]
+                df_title = pd.concat([df_title, df_section_title], ignore_index=True)
+                df_title.to_csv('./crawling_data/crawling_data_{}_{}.csv'.format(category[k], j), index=False)
+                titles = []
