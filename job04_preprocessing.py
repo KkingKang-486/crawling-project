@@ -10,12 +10,12 @@ import pickle
 
 pd.set_option('display.unicode.east_asian_width', True)  # 줄맞추기
 # 이 사이에 하은쓰 뭔가 있었음 컬럼?
-df = pd.read_csv('./crawling_data/laftel_crawling_data_20221129.csv')  # 데이터프레임
+df = pd.read_csv('./crawling_data_3/laftel_crawling_data_20221201.csv')  # 데이터프레임
 print(df.head())
 print(df.category.value_counts())
 df.info()
 
-X = df['titles']
+X = df['summary']
 Y = df['category']
 
 encoder = LabelEncoder()  # 아직 컨캣은 안한상태 실험해보기 어렵 11:10 # 데이터 전처리, 와이가 간단하니 먼저
