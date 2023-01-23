@@ -1,4 +1,4 @@
-# Laftel-Genre_Classification_Project
+# Laftel_Genre_Classification_Project
 라프텔 장르 분류 프로젝트 (w.강서현, 이하은, 전혜영)
 
 
