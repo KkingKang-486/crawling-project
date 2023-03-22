@@ -13,7 +13,7 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- temp<br>
 
 
-# <p align = 'center'>  :triangular_flag_on_post: 자연어 크롤링 프로젝트 <br><br> Barcode Recognition & Dangerous Elements Notification </p>
+# <p align = 'center'>  :triangular_flag_on_post: 자연어 크롤링 프로젝트 <br><br> Natural Language Processing Genre Classification Model </p>
 
 <br>
 
