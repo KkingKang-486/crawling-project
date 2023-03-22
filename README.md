@@ -43,6 +43,10 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 
   <ol>
     <li> 데이터수집 (selemium / BeautifulSoup) </li>
+    <div align = 'center'>
+  <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/AMiKnxoZs2.jpg'>
+</div>
+<br>
     <li> 전처리 (KoNLPy / re / sklearn) </li>
     <li> 모델학습 : Numpy, metaplotlib, keras, sklearn </li>
     <li> 모델예측 : Pandas, Numpy, sklearn, KoNLPy, keras, pickle  </li>
@@ -55,6 +59,13 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 1) 애니메이션 컨텐츠를 다루는 OTT플랫폼의 컨텐츠 분류모델 제작과 제작한 모델의 예측률을 검증
 2) 애니메이션 이외에도 영화, 드라마, 웹툰 등에서도 줄거리를 통해 장르 분류 가능
 
+----------------------------------------------------
+
+### 어플리케이션 실행
+  <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
+</div>
+  <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/1HbUiAZ4e3.png'>
+</div>
 
 
 - - -
