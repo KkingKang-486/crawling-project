@@ -20,12 +20,14 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 ### Description
 -----------------------------------------------------------------------------------------------------------------------------
 <div align = 'center'>
-  <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/CcSudjZ5R8/9blR74g8SV.png'>
+  <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/DKCNmwGYtI.jpg'>
 </div>
 <br>
 
 <h5>
-시중에 판매중인 음료의 점자는 '맥주', '음료', '탄산' 총 세가지로만 표기되어 있을뿐 아니라, 점자가 잘못 되어있는 제품들도 다수 존재합니다.
+프로젝트 목적
+<br><br>
+주로 줄거리나 전개가 독특한 애니메이션. 관련성이 떨어지는 내용으로 장르를 예측할 수 있을 지, 애니메이션 OTT플랫폼인 라프텔 데이터를 활용해 알아봄
 <br><br>
 시각장애인들은 음료를 하나 먹을 때도 이러한 어려움을 겪으며 살아가고 있습니다.
 <br><br><br>
