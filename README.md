@@ -65,7 +65,10 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 <img src = "https://img.shields.io/static/v1?label=Matplotlib&message=3.5.3&color=yellow">
 <br>
 <img src = "https://img.shields.io/static/v1?label=Numpy&message=1.21.6&color=green">
-<img src = "https://img.shields.io/static/v1?label=opencv&message=4.5.5.628&color=blue">
 <img src = "https://img.shields.io/static/v1?label=Pandas&message=1.1.5&color=navy">
-<img src = "https://img.shields.io/static/v1?label=Torch&message=1.13.1&color=purple">
+
+<img src = "https://img.shields.io/static/v1?label=keras&message=2.9.0&color=blue">
+<img src = "https://img.shields.io/static/v1?label=tensorflow&message=2.9.2&color=pink">
+<img src = "https://img.shields.io/static/v1?label=scikit-learn&message=1.0.2&color=orange">
+<img src = "https://img.shields.io/static/v1?label=scikit-learn&message=1.0.2&color=purple">
 </div>
