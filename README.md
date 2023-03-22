@@ -1,22 +1,9 @@
 # Laftel_Genre_Classification_Project
 라프텔 장르 분류 프로젝트 (w.강서현, 이하은, 전혜영)
 
-eval_set : 애니플러스 카테고리
-
-test_data : 특정 애니메이션의 네이버 검색 결과 줄거리
-
-
-
 
 이 저장소의 
 파이썬 실행버전은 3.7입니다.
-
-폴더구조<br>
-project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이틀 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_2   &nbsp;&nbsp; #카테고리 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_3   &nbsp;&nbsp; #줄거리 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_4   &nbsp;&nbsp; #테스트데이터 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- temp<br>
 
 
 # <p align = 'center'>  :triangular_flag_on_post: 라프텔 장르 분류 프로젝트 <br><br> Natural Language Processing Genre Classification Model </p>
@@ -45,6 +32,17 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
     <li> 라프텔 (애니메이션 ott 플랫폼) </li>
     <li> 네이버 줄거리 </li>
   </ol>   
+
+* eval_set : 애니플러스 카테고리
+
+* test_data : 특정 애니메이션의 네이버 검색 결과 줄거리
+
+* 폴더구조<br>
+project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이틀 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_2   &nbsp;&nbsp; #카테고리 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_3   &nbsp;&nbsp; #줄거리 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- crawling_data_4   &nbsp;&nbsp; #테스트데이터 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--- temp<br>
 
 ----------------------------------------------------
 
