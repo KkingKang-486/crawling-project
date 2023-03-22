@@ -50,10 +50,6 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 ----------------------------------------------------
 
 ### 프로젝트 과정
-1) 데이터수집 (selemium/ BeautifulSoup)
-2) 전처리 (konlpy/ re / sklearn)
-3) 모델학습 : Numpy, metaplotlib, keras, sklearn
-4) 모델예측 : Pandas, Numpy, sklearn, KoNLPy, keras, pickle(토큰?) Okt (한글 형태소)
 
   <ol>
     <li> 데이터수집 (selemium/ BeautifulSoup) </li>
