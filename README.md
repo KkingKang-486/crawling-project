@@ -23,7 +23,7 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 
 <br>
 
-### Description
+### 프로젝트 개요
 -----------------------------------------------------------------------------------------------------------------------------
 <div align = 'center'>
   <img style = "width : 850px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/DKCNmwGYtI.jpg'>
@@ -43,19 +43,25 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 <br><br>
   <ol>
     <li> 라프텔 (애니메이션 ott 플랫폼) </li>
-    <br>
     <li> 네이버 줄거리 </li>
   </ol>   
 <br><br>
 
 ----------------------------------------------------
 
+### 프로젝트 과정
 1) 데이터수집 (selemium/ BeautifulSoup)
 2) 전처리 (konlpy/ re / sklearn)
 3) 모델학습 : Numpy, metaplotlib, keras, sklearn
 4) 모델예측 : Pandas, Numpy, sklearn, KoNLPy, keras, pickle(토큰?) Okt (한글 형태소)
 
-  
+  <ol>
+    <li> 데이터수집 (selemium/ BeautifulSoup) </li>
+    <li> 전처리 (konlpy/ re / sklearn) </li>
+    <li> 모델학습 : Numpy, metaplotlib, keras, sklearn </li>
+    <li> 모델예측 : Pandas, Numpy, sklearn, KoNLPy, keras, pickle  </li>
+  </ol>  
+
 - - -
 <div align = "center">
 <h4> 💽Tech Stack 💽 </h4>
@@ -70,5 +76,5 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 <img src = "https://img.shields.io/static/v1?label=keras&message=2.9.0&color=blue">
 <img src = "https://img.shields.io/static/v1?label=tensorflow&message=2.9.2&color=pink">
 <img src = "https://img.shields.io/static/v1?label=scikit-learn&message=1.0.2&color=orange">
-<img src = "https://img.shields.io/static/v1?label=scikit-learn&message=1.0.2&color=purple">
+<img src = "https://img.shields.io/static/v1?label=konlpy&message=0.6.0&color=purple">
 </div>
