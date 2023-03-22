@@ -55,13 +55,8 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 
 ----------------------------------------------------
 
-### 기대효과
-1) 애니메이션 컨텐츠를 다루는 OTT플랫폼의 컨텐츠 분류모델 제작과 제작한 모델의 예측률을 검증
-2) 애니메이션 이외에도 영화, 드라마, 웹툰 등에서도 줄거리를 통해 장르 분류 가능
 
-----------------------------------------------------
-
-### 어플리케이션 실행
+### 프로젝트 결과 - 어플리케이션 실행
 <!-- <div align = 'left'>
   <img style = "width : 200px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
   </div>
@@ -72,6 +67,14 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
   <img style = "width : 300px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
   <img style = "width : 300px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/1HbUiAZ4e3.png'>
 </div>
+
+----------------------------------------------------
+
+### 기대효과
+1) 애니메이션 컨텐츠를 다루는 OTT플랫폼의 컨텐츠 분류모델 제작과 제작한 모델의 예측률을 검증
+2) 애니메이션 이외에도 영화, 드라마, 웹툰 등에서도 줄거리를 통해 장르 분류 가능
+
+
 
 - - -
 <div align = "center">
