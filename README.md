@@ -1,5 +1,11 @@
-# crawling-project
-라프텔 크롤링 프로젝트 (w.강서현, 이하은, 전혜영)
+# Laftel_Genre_Classification_Project
+라프텔 장르 분류 프로젝트 (w.강서현, 이하은, 전혜영)
+
+eval_set : 애니플러스 카테고리
+
+test_data : 특정 애니메이션의 네이버 검색 결과 줄거리
+
+
 
 
 이 저장소의 
