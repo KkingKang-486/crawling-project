@@ -62,13 +62,18 @@ project_root --- crawling_data    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #타이�
 ----------------------------------------------------
 
 ### 어플리케이션 실행
-<div align = 'center'>
-  <img style = "width : 400px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
+<div align = 'left'>
+  <img style = "width : 200px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
   </div>
-  <div align = 'center'>
+  <div align = 'right'>
   <img style = "width : 400px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/1HbUiAZ4e3.png'>
 </div>
 
+
+<div>
+  <img style = "width : 200px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/nR2lHRkgr9.png'>
+  <img style = "width : 200px" src = 'https://i.esdrop.com/d/f/NXl6YkfhTU/1HbUiAZ4e3.png'>
+</div>
 
 - - -
 <div align = "center">
